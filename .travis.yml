@@ -14,9 +14,4 @@ script:
   - gulp default
   - node bin/cloudcmd --test
 
-notifications:
-    #webhooks:
-        #http://requestb.in/12h5bl71
-    email:
-        on_success: never
-        on_failure: change
+
